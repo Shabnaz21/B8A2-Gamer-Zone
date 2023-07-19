@@ -199,6 +199,53 @@ nav{
 }
 
 /* Before footer */
+
+.before-footer{
+    width: 1920px;
+    
+    height: 427px;
+    
+}
+.btn-conatiner{
+    /* background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
+    display: grid;
+    margin: 0 150px;
+    grid-row-gap: 24px;
+    grid-template-columns: repeat(5, 1fr); 
+    margin-bottom: 120px;
+    
+}
+
+
+.btn-card{
+    width: 350px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    gap: 19px;
+    border-radius: 50px;
+}
+.btn-card:hover{
+    border: 1px solid #FF42A5;
+}
+
+.btn-content{
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-content:hover{
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-card img{
+    padding: 10px;
+}
+.btn-card p{
+    color: #0B0223;
+}
+
 /* Footer style */
 
 .footer-container{
