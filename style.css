@@ -91,6 +91,7 @@ nav{
     text-transform: uppercase;
     margin-top: 150px;
 }
+
 .banner-text h1{
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -98,16 +99,25 @@ nav{
     -webkit-text-fill-color: transparent;
     font-size: 95px;
     font-weight: 800;
-    margin-top: -80px;
+    margin-top: -50px;
+    margin-bottom: 24px;
 
 }
-.banner-images{
-    width: 50%;
+
+.banner-images img{
+    width: 100%;
 }
-.heading-list-section{
+
+.heading-list-section li{
     list-style: none;
-    
+    text-align: left;
+    margin-left: 320px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 15px;
 }
+
 
 .banner-button button{
     padding: 20px 40px;
@@ -118,13 +128,14 @@ nav{
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 48px;
+    margin-top: 42px;
 }
 
-.banner-button btn-1{
+.btn-1{
     background-color:  #FF42A5;
 }
 
-.banner-button btn-2{
+.btn-2{
     background-color: #4EC5F7;
 }
 
@@ -146,11 +157,33 @@ nav{
         width: 100%;
         padding: 18px 20px 17px 24px;
     }
+    /* Banner Section */
     .banner-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .banner-text, .banner-images{
+        width: 100%;
+    }
+    .banner-text p{
+        font-size: 35px;
+        margin-top: 130px;
+    }
+    
+    .banner-text h1{
+        font-size: 75px;
+        margin-bottom: 24px;}
+
+    .heading-list-section li{
+        margin-left: 52px;
+        font-size: 18px;
+    }
+    .banner-button button{
+        padding: 20px auto;
+        font-size: 16px;
+        margin-top: 42px;
+        margin-bottom: 165px ;
     }
 }
-/* Banner Section */
 
 @media screen and (min-width:576px)and (max-width:960px){
     .nav-container{
@@ -168,6 +201,21 @@ nav{
     }
     /* Banner Section */
     .banner-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
+
     }
+    .banner-text, .banner-images{
+        width: 100%;
+    }
+    .heading-list-section li{
+        margin-left: 220px;
+        
+    }
+    .banner-button button{
+        padding: 20px 40px;
+        font-size: 16px;
+        margin-top: 42px;
+        margin-bottom: 165px ;
+    }
+    
 }
