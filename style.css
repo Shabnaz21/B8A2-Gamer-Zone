@@ -429,7 +429,15 @@ nav{
         width:100%;
         text-align: center;
     }
-    
+   /* Before footer  */
+   .btn-conatiner{
+    flex-direction: column;
+    padding: 0 -50px;
+    margin-left: -90px;
+    grid-template-columns: repeat(1, 1fr); 
+    margin-bottom: 120px;
+}
+
 }
 
 @media screen and (min-width:576px)and (max-width:960px){
@@ -498,4 +506,12 @@ nav{
         text-align: center;
     }
     /* Play Instantly */
+    /* Before footer  */
+   .btn-conatiner{
+    flex-direction: column;
+    padding: 0 -50px;
+    margin-left: -90px;
+    grid-template-columns: repeat(2, 1fr); 
+    margin-bottom: 120px;
+}
 }
