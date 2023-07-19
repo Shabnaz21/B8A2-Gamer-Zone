@@ -6,6 +6,9 @@ body{
 }
 /* shared style */
 
+section .games-conatiner, .paly{
+    margin: 120px 0;
+}
 .section-gridant{
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -150,6 +153,7 @@ nav{
 /* gamer style */
 
 .gamer-container{
+    margin-bottom: 120px;
     align-items: center;
     display: flex;
     gap: 22px;
@@ -255,7 +259,6 @@ nav{
     
 }
 
-
 .btn-card{
     width: 340px;
     height: 80px;
@@ -342,6 +345,9 @@ nav{
 
 /* Responsive style */
 @media screen and (max-width:576px) {
+    .hide{
+        display: none;
+    }
     body{
         width: 400px;
     }
@@ -356,6 +362,29 @@ nav{
     .nav-items-container .follow-btn{
         width: 100%;
         padding: 18px 20px 17px 24px;
+    }
+    /*  Gamer*/
+    .gamer-container{
+        flex-direction: column;
+    }
+    .img-container, .gamer-content{
+        width: 50%;
+        margin-left: 0px;
+    }
+    .img-container img{
+        width: 400px;
+    }
+    .gamer-content{
+        text-align: center;
+        margin: 0 -25px;
+        margin-top: -80px;
+    }
+    .gamer-content h2{
+        font-size: 29px;
+    }
+    .gamer-content p{
+        font-size: 16px;
+        margin: 0 -65px;
     }
     /* Banner Section */
     .banner-container{
@@ -417,6 +446,30 @@ nav{
         padding: 18px 10px 17px 24px;
         
     }
+    /* Gamer */
+    .gamer-container{
+        flex-direction: column;
+    }
+    .img-container, .gamer-content{
+        width: 50%;
+        margin-left: 0px;
+    }
+    .img-container img{
+        width: 800px;
+    }
+    .gamer-content{
+        text-align: center;
+        margin: 0 -25px;
+        margin-top: -80px;
+    }
+    .gamer-content h2{
+        font-size: 38px;
+    }
+    .gamer-content p{
+        font-size: 20px;
+        margin: 0 -65px;
+    }
+
     /* Banner Section */
     .banner-container{
         flex-direction: column-reverse;
