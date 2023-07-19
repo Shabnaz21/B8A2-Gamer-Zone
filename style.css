@@ -345,9 +345,6 @@ nav{
 
 /* Responsive style */
 @media screen and (max-width:576px) {
-    .hide{
-        display: none;
-    }
     body{
         width: 400px;
     }
@@ -423,11 +420,22 @@ nav{
     /* Play Instantly */
     .play-cloumn{
         flex-direction: column;
-        margin: auto;
+        
     }
     .play-content{
         width:100%;
         text-align: center;
+        margin-top: -60px;
+        margin-bottom: 60px;
+    }
+    .play-man{
+        width: 300px;
+    }
+    .play-image .play-pic{
+        width: 70%;
+        margin-left: -60px;
+        margin-top: -130px;
+        margin-bottom: -10px;
     }
    /* Before footer  */
    .btn-conatiner{
@@ -531,6 +539,26 @@ nav{
         text-align: center;
     }
     /* Play Instantly */
+    /* Play Instantly */
+    .play-cloumn{
+        flex-direction: column;
+        margin: auto;
+    }
+    .play-content{
+        width:100%;
+        text-align: center;
+        margin-top: -60px;
+        margin-bottom: 60px;
+    }
+    .play-man{
+        width: 550px;
+    }
+    .play-image .play-pic{
+        width: 70%;
+        margin-left: -100px;
+        margin-top: -250px;
+        margin-bottom: -10px;
+    }
     /* Before footer  */
    .btn-conatiner{
     flex-direction: column;
