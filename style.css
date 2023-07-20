@@ -261,13 +261,25 @@ nav{
     display: flex;
     align-items: center;
     margin-top: 120px;
-    
 }
+
+#reverse{
+    flex-direction: row-reverse;  
+    margin-left: 200px;
+}
+
+#reverse .play-pic{
+    margin-left: 550px;
+}
+
 .play-content{
     width: 50%;
     text-align: right;
-    padding: 0 200px;
-    
+    padding: 0 200px;  
+}
+#reverse .play-content{
+    text-align: left;
+    padding: 0 150px;
 }
 .play-content span{
     background: linear-gradient(180deg, #F948B2 100%, #8758F1 50%);
@@ -326,7 +338,6 @@ nav{
     padding: 120px 130px;
     grid-row-gap: 24px;
     grid-template-columns: repeat(5, 1fr); 
-    
 }
 
 .btn-card{
@@ -503,7 +514,22 @@ nav{
         width: 70%;
         margin-left: -60px;
         margin-top: -130px;
-        margin-bottom: -10px;
+    }
+    #reverse{
+        flex-direction: column;  
+        margin-left: 50px ;
+    }
+   #reverse .play-image{
+        margin-left: -200px;
+    }
+    #reverse .play-pic{
+        margin-left: 220px;
+        margin-top: -100px; 
+    }
+    
+    #reverse .play-content{
+        text-align: center; 
+        margin-top: -100px;
     }
     /* Careers */
     .careers-container{
@@ -590,7 +616,6 @@ nav{
         font-size: 20px;
         margin: 0 -65px;
     }
-
     /* Banner Section */
     .banner-container{
         flex-direction: column-reverse;
@@ -621,7 +646,8 @@ nav{
     /* Play Instantly */
     .play-cloumn{
         flex-direction: column;
-        margin: auto;
+        margin-top: 50px;
+
     }
     .play-content{
         width:100%;
@@ -632,11 +658,33 @@ nav{
     .play-man{
         width: 550px;
     }
+    .play-image{
+        margin-left: -80px;}
+
     .play-image .play-pic{
         width: 70%;
         margin-left: -100px;
         margin-top: -250px;
         margin-bottom: -10px;
+    }
+    #reverse{
+        flex-direction: column;  
+        margin-left: 50px;
+        
+        
+    }
+   #reverse .play-image{
+        margin-left: -300px;
+    }
+    #reverse .play-pic{
+        width: 70%;
+        margin-left: 400px;
+        margin-top: -200px; 
+    }
+    
+    #reverse .play-content{
+        text-align: center;  
+        margin-top: 30px;
     }
     /* Careers */
     .careers-container{
