@@ -390,6 +390,10 @@ nav{
     color: #FFF;
     
 }
+.footer-items{
+    display: flex;
+    margin: 0 500px;
+}
 .footer-items a{
     color: #FFF;
     text-decoration: none;
@@ -403,15 +407,18 @@ nav{
     margin-right: 30px;
     color: #ffffff;
     margin-top: 66px;
-    margin-bottom: 75px;
+    
 }
 
 .footer-cloumn{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     margin: auto;
+    
 }
-
+.footer-content{
+    margin-top: 75px;
+}
 .footer-content a, p{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.60); 
@@ -560,18 +567,24 @@ nav{
     .footer-container .logo{
         padding: 10px  80px;
         padding-bottom: 20px;
+        margin-left: -50px;
     }
-
+    .footer-items{
+        flex-direction: column;
+        margin: 0;
+        gap: 30px;
+    }
     .footer-items a{
         padding-right: 25px;
     }
     .footer-icons a{
         padding-right: 18px;
     }
+    
     .footer-cloumn{
         color: rgba(255, 255, 255, 0.60);
         text-align: center;
-        margin: auto;
+        margin: 0 30px;
     }
 
     .footer-content a, p{
@@ -670,8 +683,6 @@ nav{
     #reverse{
         flex-direction: column;  
         margin-left: 50px;
-        
-        
     }
    #reverse .play-image{
         margin-left: -300px;
@@ -715,16 +726,22 @@ nav{
     .footer-container{
         max-width: 960px;
         max-height: auto;
-        
     }
 
     .footer-container .logo{
         padding: 10px  250px;
         padding-bottom: 20px;
     }
-
+    .footer-items{
+        flex-direction:inherit;
+        margin: 0 55px;
+    }
     .footer-items a{
         padding-right: 20px;
+    }
+    .footer-icons{
+        flex-direction: inherit;
+    
     }
     .footer-icons a{
         padding-right: 10px;
