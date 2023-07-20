@@ -5,10 +5,6 @@ body{
     max-width: 1920px;
 }
 /* shared style */
-
-section .games-conatiner, .paly{
-    margin: 120px 0;
-}
 .section-gridant{
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -261,10 +257,10 @@ nav{
 }
 
 /* Play Instantly */
-
 .play-cloumn{
     display: flex;
     align-items: center;
+    margin-top: 120px;
     
 }
 .play-content{
@@ -286,16 +282,51 @@ nav{
 .play-image .play-pic{
     margin-left: -150px;
     margin-top: -290px;
-    margin-bottom: 120px;
 }
-
+/* Careers */
+.careers-container{
+    background-color: #F948B2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 240px;
+    color: #FFF;
+    list-style: none;
+    margin-top: 120px;
+}
+.careers-container .list-item{
+    display: flex;
+    margin-top: 30px;
+}
+.careers-container .list-item li{
+    padding: 5px;
+}
+.careers-container .list-item .list-2{
+    text-align: end;
+}
+.careers-content h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.careers-btn{
+    margin-top: 40px;
+    background-color: #FFF;
+    border: 0;
+    border-radius: 48px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+     color: #FF42A5 ;
+}
 /* Before footer */
 .btn-conatiner{
+    background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: grid;
-    padding: 0 130px;
+    padding: 120px 130px;
     grid-row-gap: 24px;
     grid-template-columns: repeat(5, 1fr); 
-    margin-bottom: 120px;
+    
 }
 
 .btn-card{
@@ -308,6 +339,7 @@ nav{
 }
 .btn-card:hover{
     border: 1px solid #FF42A5;
+    background-color: #FFF;
 }
 
 .btn-content{
@@ -328,7 +360,6 @@ nav{
 }
 
 /* Footer style */
-
 .footer-container{
     align-items: center;
     text-align: center;
@@ -341,7 +372,6 @@ nav{
 .footer-container .logo{
     padding: 100px  800px;
     padding-bottom: 20px;
-
 }
 .footer-container .logo-content{
     font-size: 45px;
@@ -363,7 +393,6 @@ nav{
     color: #ffffff;
     margin-top: 66px;
     margin-bottom: 75px;
-    
 }
 
 .footer-cloumn{
@@ -476,7 +505,19 @@ nav{
         margin-top: -130px;
         margin-bottom: -10px;
     }
-    
+    /* Careers */
+    .careers-container{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+        padding-bottom: 120px;
+    }
+   
+    .careers-image img{
+        width: 400px;
+    }
+   .careers-btn{
+    margin-left: 50px;
+   }
    /* Before footer  */
    .btn-conatiner{
     flex-direction: column;
@@ -597,6 +638,24 @@ nav{
         margin-left: -100px;
         margin-top: -250px;
         margin-bottom: -10px;
+    }
+    /* Careers */
+    .careers-container{
+        flex-direction: column-reverse;
+        padding: 0;
+        padding-bottom: 120px;
+    }
+    .careers-image img{
+        width: 100%;
+    }
+    .careers-content{
+        padding: 0 40px ;
+    }
+    .careers-content .list-item{
+        padding: 0 80px;
+    }
+    .careers-btn{
+        margin-left: 200px;
     }
     /* Before footer  */
    .btn-conatiner{
